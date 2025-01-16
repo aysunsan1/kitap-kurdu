@@ -4,7 +4,7 @@ const Home = () => {
       <h1>Hoş Geldiniz</h1>
       <img src="/welcome.webp" className="img-fluid rounded image" alt="" />
 
-      <p>Ürünler Sayfasında Yeni Çıkan Bütün Kitaplara Ulaşabilirisniz</p>
+      <p>Ürünler Sayfasında Yeni Çıkan Bütün Kitaplara Ulaşabilirsiniz</p>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Detail = () => {
   // İd'si bilinen elemanı api'dan alma
   useEffect(() => {
     axios
-      .get(`http://localhost:3030/books/${id}`)
+      .get(`http://localhost:3000/books/${id}`)
       .then((res) => setBook(res.data));
   }, []);
 
